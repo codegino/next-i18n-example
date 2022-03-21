@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import { useRouter } from "next/router";
+import { useTranslation } from "next-i18next";
 
 const Header = () => {
   const router = useRouter();
@@ -13,14 +14,19 @@ const Header = () => {
     });
   };
 
+  // Will default to `common` if not argument is specified
+  const { t } = useTranslation();
+
   return (
     <header>
       <nav>
         <Link href="/">
-          <a className={router.asPath === "/" ? "active" : ""}>Home</a>
+          <a className={router.asPath === "/" ? "active" : ""}>{t("home")}</a>
         </Link>
         <Link href="/about">
-          <a className={router.asPath === "/about" ? "active" : ""}>About</a>
+          <a className={router.asPath === "/about" ? "active" : ""}>
+            {t("about")}
+          </a>
         </Link>
       </nav>
 
