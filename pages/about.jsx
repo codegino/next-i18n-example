@@ -1,7 +1,7 @@
 import { useRouter } from "next/router";
 
-export default function Home() {
+export default function About() {
   const { locale } = useRouter();
 
-  return <main>Hello world: {locale}</main>;
+  return <main>About page: {locale}</main>;
 }
