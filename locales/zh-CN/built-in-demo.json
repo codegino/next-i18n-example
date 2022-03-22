@@ -4,11 +4,5 @@
   "dateTime": "日期/时间: {{val, datetime}}",
   "relativeTime": "相对时间: {{val, relativetime}}",
   "list": "列表: {{val, list}}",
-  "weekdays": {
-    "monday": "星期一",
-    "tuesday": "星期二",
-    "wednesday": "星期三",
-    "thursday": "星期四",
-    "friday": "星期五"
-  }
+  "weekdays": ["星期一", "星期二", "星期三", "星期四", "星期五"]
 }
