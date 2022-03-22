@@ -1,0 +1,14 @@
+{
+  "number": "数: {{val, number}}",
+  "currency": "货币: {{val, currency}}",
+  "dateTime": "日期/时间: {{val, datetime}}",
+  "relativeTime": "相对时间: {{val, relativetime}}",
+  "list": "列表: {{val, list}}",
+  "weekdays": {
+    "monday": "星期一",
+    "tuesday": "星期二",
+    "wednesday": "星期三",
+    "thursday": "星期四",
+    "friday": "星期五"
+  }
+}

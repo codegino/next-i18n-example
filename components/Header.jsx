@@ -32,7 +32,7 @@ const Header = () => {
 
       <select onChange={handleLocaleChange} value={router.locale}>
         <option value="en">🇺🇸 English</option>
-        <option value="cn">🇨🇳 中文</option>
+        <option value="zh-CN">🇨🇳 中文</option>
         <option value="sv">🇸🇪 Swedish</option>
       </select>
 
